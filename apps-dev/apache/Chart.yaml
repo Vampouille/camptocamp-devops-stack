@@ -1,0 +1,7 @@
+apiVersion: v2
+name: apache
+version: 0
+dependencies:
+- name: apache
+  version: "7.4.0"
+  repository: "https://charts.bitnami.com/bitnami"

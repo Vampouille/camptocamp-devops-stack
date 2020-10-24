@@ -1,0 +1,7 @@
+apiVersion: v2
+name: apache
+version: 0
+dependencies:
+- name: postgresql
+  version: "9.8.2"
+  repository: "https://charts.bitnami.com/bitnami"

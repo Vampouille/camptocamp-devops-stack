@@ -1,0 +1,8 @@
+apache:
+  replicaCount: 2
+  htdocsConfigMap: webpage
+  ingress:
+    enabled: true
+    hostname: apache.127.0.0.1.nip.io
+  service:
+    type: ClusterIP

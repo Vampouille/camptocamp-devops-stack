@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: webpage
+data:
+  index.html: |
+    Hello Bonjour
