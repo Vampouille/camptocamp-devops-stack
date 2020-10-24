@@ -1,0 +1,18 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: apache
+  namespace: argocd
+spec:
+  project: default
+  syncPolicy:
+    automated:
+      prune: true
+  source:
+    repoURL: https://github.com/Vampouille/camptocamp-devops-stack.git
+    path: apps-dev/apache/
+    targetRevision: master
+  destination:
+    namespace: dev
+    server: https://kubernetes.default.svc
