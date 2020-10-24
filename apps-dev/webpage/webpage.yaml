@@ -4,4 +4,4 @@ metadata:
   name: webpage
 data:
   index.html: |
-    Hello Bonjour
+    <h1>Hello Bonjour</h1>
