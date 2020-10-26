@@ -1,3 +1,4 @@
 postgresql:
+  postgresqlPostgresPassword: pgpass
   persistence:
       enabled: false
