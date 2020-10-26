@@ -1,3 +1,7 @@
 postgresql:
+  postgresqlPassword: pgpass
+  replication:
+    enabled: true
+    slaveReplicas: 3
   persistence:
-      enabled: false
+    enabled: false
